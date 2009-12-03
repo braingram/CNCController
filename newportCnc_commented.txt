@@ -1,0 +1,30 @@
+1QM3 : set motor type: most likely 3 (2 not supported, 1 for dc servo, 4: commutated brushless dc servo)
+1QI1.00 : 1.00 max amps (?? maybe this could go higher ??)
+1QV15.0 : 15 volt motor
+1SN4 : set units to inches (??this should be changed later??)
+1SU0.0005 : set encoder resolution (minimum distance)
+1FR0.0005 : set full-step resolution
+1QS1000 : set microstep factor
+1VU2.0 : max velocity to 2 units/second (inches????)
+1VA1.0 : set velocity to 1 unit/second
+1JH1.0 : set jog high speed 1.25 unit/second
+1JW0.5 : set jog low speed 1 unit/second
+1OH1.0 : set home high speed to 1 unit/second
+1AU4.0 : max accel deccel, 1 u/s2
+1AC4.0 : max accel
+1AG2.0 : max deccel
+1FE0.9999996 : max following error
+1TJ1 : trapezoidal trajectory
+1OM3 : use positive limit signal as 'home'
+1SL-14.00000 : software left limit
+1SR0.00000 : software right limit
+1ZA323H : 0011 0010 0011 : (2)abort motion on amp fault, (10)amp enable active high, (11)half winding 
+1ZB0H : 0000 0000 0000 : feedback?
+1ZE3H : 0011 0000 0000 : e-stop: abort on e-stop
+1ZF2H : 0010 0000 0000 : following-error: abort on following error
+1ZH24H : 0010 0100 0000 : hw limit: abort on hw limit, hw limit input active high
+1ZS24H : 0010 0100 0000 : sw limit: abort on sw limit
+1QD
+SM
+1MF : motor off
+1MO : motor on
